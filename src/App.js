@@ -19,7 +19,7 @@ function App() {
 
         break;
       case 'sub':
-        setResult(a - b);
+
         break;
       case 'mul':
 
@@ -28,6 +28,7 @@ function App() {
 
         break;
       case 'avgAdd':
+        setResult((a + b) / 2);
         break;
       case 'avgMul':
 
