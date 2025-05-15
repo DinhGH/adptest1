@@ -16,13 +16,13 @@ function App() {
 
     switch (type) {
       case 'add':
-        
+        setResult(a+b);
         break;
       case 'sub':
         
         break;
       case 'mul':
-        
+        setResult(a*b);
         break;
       case 'div':
         
