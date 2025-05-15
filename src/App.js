@@ -28,7 +28,7 @@ function App() {
 
         break;
       case 'avgAdd':
-
+        setResult((a + b) / 2);
         break;
       case 'avgMul':
 
