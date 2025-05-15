@@ -37,7 +37,7 @@ function App() {
         
         break;
       case 'min':
-        
+        setResult(Math.min(a, b));
         break;
       default:
         setResult(null);
