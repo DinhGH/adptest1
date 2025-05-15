@@ -16,28 +16,28 @@ function App() {
 
     switch (type) {
       case 'add':
-        
+
         break;
       case 'sub':
-        
+        setResult(a - b);
         break;
       case 'mul':
-        
+
         break;
       case 'div':
-        
+
         break;
       case 'avgAdd':
-       
+        setResult((a + b) / 2);
         break;
       case 'avgMul':
-        
+
         break;
       case 'max':
-        
+
         break;
       case 'min':
-        
+
         break;
       default:
         setResult(null);
