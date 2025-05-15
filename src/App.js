@@ -25,7 +25,7 @@ function App() {
         
         break;
       case 'div':
-        
+        setResult(b === 0 ? 'Không thể chia cho 0' : a / b);
         break;
       case 'avgAdd':
        
