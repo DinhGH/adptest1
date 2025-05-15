@@ -22,7 +22,7 @@ function App() {
         
         break;
       case 'mul':
-        
+        setResult(a*b);
         break;
       case 'div':
         
