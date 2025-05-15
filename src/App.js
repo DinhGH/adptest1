@@ -16,28 +16,28 @@ function App() {
 
     switch (type) {
       case 'add':
-        setResult(a + b);
+        
         break;
       case 'sub':
-        setResult(a - b);
+        
         break;
       case 'mul':
-        setResult(a * b);
+        
         break;
       case 'div':
-        setResult(b === 0 ? 'Không thể chia cho 0' : a / b);
+        
         break;
       case 'avgAdd':
-        setResult((a + b) / 2);
+       
         break;
       case 'avgMul':
-        setResult(Math.sqrt(a * b));
+        
         break;
       case 'max':
-        setResult(Math.max(a, b));
+        
         break;
       case 'min':
-        setResult(Math.min(a, b));
+        
         break;
       default:
         setResult(null);
