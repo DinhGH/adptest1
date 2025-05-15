@@ -19,7 +19,7 @@ function App() {
 
         break;
       case 'sub':
-
+        setResult(a - b);
         break;
       case 'mul':
 
